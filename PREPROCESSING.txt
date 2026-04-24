@@ -1,0 +1,66 @@
+PREPROCESSING 
+
+
+review text length is completely skewed to the left 
+
+
+👉 You have TONS of very short reviews
+👉 And few long reviews
+
+
+
+
+data inconsistency 
+2026-03-08 00:00:00
+قبل يومين (2)
+قبل شهر
+قبل شهر
+قبل سنة
+2024-08-17 00:00:00
+قبل 3 أسابيع
+2026-03-02 00:00:00
+
+
+reviews 
+has_emoji
+False    1287
+True      684   print what emojies then map to sentiments ? (positive negative neutral 
+Name: count, dtype: int64
+
+
+aspects not balanced ?? will this affect model 
+
+
+count
+service	988
+food	454
+app_experience	453
+ambiance	378
+price	354
+general	303
+cleanliness	185
+delivery	161
+none	57
+
+
+ sentiments balnced but not for neutral how do we solve this in training?
+Counter({'positive': 1646, 'negative': 1538, 'neutral': 149})
+
+
+will this cuase inbalance 
+num_aspects
+1    1066
+2     552
+3     266
+4      71
+5      15
+6       1
+Name: count, dtype: int64 
+
+check outliers and what to do with it 
+
+
+what are the relevant coloumns 
+
+ 
+
