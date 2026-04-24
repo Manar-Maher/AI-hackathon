@@ -1,4 +1,4 @@
-PREPROCESSING 
+PREPROCESSING notes and prompt
 
 
 review text length is completely skewed to the left 
@@ -10,7 +10,7 @@ review text length is completely skewed to the left
 
 
 
-data inconsistency 
+date inconsistency 
 2026-03-08 00:00:00
 قبل يومين (2)
 قبل شهر
@@ -24,7 +24,7 @@ data inconsistency
 reviews 
 has_emoji
 False    1287
-True      684   print what emojies then map to sentiments ? (positive negative neutral 
+True      684   print what emojies then map to sentiments ? (positive negative neutral )
 Name: count, dtype: int64
 
 
@@ -43,11 +43,11 @@ delivery	161
 none	57
 
 
- sentiments balnced but not for neutral how do we solve this in training?
+ sentiments balnced but not for neutral how do we solve this in training or will it have no effect?
 Counter({'positive': 1646, 'negative': 1538, 'neutral': 149})
 
 
-will this cuase inbalance 
+will this cuase inbalance  (this is number of aspects per review eg (service : vs service : food: vs service : food : dilevery: ))
 num_aspects
 1    1066
 2     552
@@ -63,4 +63,4 @@ check outliers and what to do with it
 what are the relevant coloumns 
 
  
-
+what kind of imbalance will make problems with training and what wont cuz there is alot 
